@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0px 20px;
+}
+
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/24/03/53/plant-2004483_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 270px;
+
+}
+
+header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .header .logo {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 900;
+}
+
+header .header .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .header .nav-list li {
+    margin-right: 25px;
+    letter-spacing: .07cm;
+
+}
+
+header .header .nav-list li:last-child {
+    margin-left: 0;
+}
+
+header .header .nav-list li a {
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+header .header .nav-list li a:hover {
+    /* background-color: black; */
+    opacity: 0.8;
+    background-color: grey;
+}
+
+.active-nav {
+    border: 2px solid #000;
+    padding: 15px 0px
+}
+
+/* the intro section */
+.intro {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.intro .title {
+    font-size: 120px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    margin-bottom: 0px;
+}
+
+.intro .lil-title {
+    font-size: 15px;
+    letter-spacing: 0.09cm;
+
+    position: relative;
+}
+
+.intro .lil-title::after {
+    content: "";
+    display: block;
+    width: 91px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    bottom: -18px;
+    left: 704px;
+}
+
+/* second section */
+.latest-articles {
+    background-color: #f1ece8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.latest-articles .sec2-title {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.latest-articles .sec2-title::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    bottom: -16px;
+    left: 60px;
+}
+
+.latest-articles .articles {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.latest-articles .article {
+    width: 320px;
+    height: 408px;
+    background-color: #ffffff;
+    margin-right: 65px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.latest-articles .article:last-child {
+    margin-right: 0;
+}
+
+.latest-articles .articles .article img {
+    width: 320px;
+    height: 234px;
+}
+
+.latest-articles .article .article-txt {
+    padding: 25px;
+    margin-top: 23px;
+    position: relative;
+}
+
+.latest-articles .articles .article-txt::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: 90px;
+    left: 134px;
+}
+
+.about-sec {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-sec .about-img {
+    width: 770px;
+}
+
+.about-sec .about-txt {
+    text-align: center;
+    padding: 100px;
+    position: relative;
+}
+
+.about-sec .about-txt::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: 315px;
+    left: 329px
+}
+
+.about-sec .about-txt h2 {
+    letter-spacing: 0.05cm;
+    font-size: 25;
+    margin-bottom: 80px;
+}
+
+.about-sec .about-txt p {
+    word-spacing: 3px;
+    width: 500px;
+    font-size: 18px;
+    text-align: start;
+}
+.sub{
+    background-color: #f1ece8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+.sub h2 {
+    font-size: 35px;
+    margin-bottom: -14px;
+    letter-spacing: 0.04cm;
+    font-weight: 400;
+}
+.sub p {
+    font-size: 20px;
+    letter-spacing: 0.04cm;
+}
+
+.sub #userEmail {
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    /* margin-bottom: ; */
+} 
